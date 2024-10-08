@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box; 
+     font-family: "popins",sans-serif;
+}
+body{
+    background: linear-gradient(to right, #2227e2, #040101) no-repeat 0 0 / cover;
+}
+h1{
+    color: white;
+}
+
+.main{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+
+main-top{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(11, 109, 109);
+    cursor: pointer;
+}
+
+
+.main-skills{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    gap: 80px;
+}
+.main-skills .card{
+    width: 25%;
+    margin: 10px;
+    background: #040101;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.main-skills .card h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.main-skills .card p{
+    font-size: 12px;  
+}
+.main-skills .card button{
+    background: orangered ;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.main-skill .card button:hover{
+    background: rgba(223, 70, 15, 0.856);
+
+}
+
+
+.main-skill .card{
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+
+.main2{
+    position: relative;
+    padding: 20px;
+    
+    width: 100%;
+
+
+
+
+    
+}
+
+
+
+
+@keyframes textcolor {
+
+    0%{
+        color: #7e0fff;
+    }
+
+    25%{
+        color: purple;
+    }
+
+    50%{
+        color: #0fffc1;
+    }
+
+    75%{
+        color: purple;
+    }
+
+    100%{
+        color: #7e0fff;
+
+    }
+    
+}
+
+.main2-top{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(11, 109, 109);
+    cursor: pointer;
+}
+
+
+h1{
+    margin-left: 50px;
+    font-size: 2.5rem;
+    animation: animate 3s linear infinite;
+
+}
+
+
+
+
+
+
+
+    
+
+
+
+.card:hover{
+    transform: scale(1.1);
+    z-index: 3;
+    
+}
+
+.card2:hover{
+    transform: scale(1.1);
+    z-index: 3;
+}
+
+
+
+
+.card3:hover{
+    transform: scale(1.1);
+    z-index: 3;
+}
+
+
+.main2-skills{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 56px;
+    gap: 90px;
+}
+.main2-skills .card2{
+    width: 25%;
+    margin: 10px;
+    background: #040101;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.main3-skills{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    gap: 80px;
+}
+
+
+
+.main2-skills .card2 h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.main2-skills .card2 p{
+    font-size: 12px;  
+}
+.main2-skills .card2 button{
+    background: orangered ;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.main2-skill .card button:hover{
+    background: rgba(223, 70, 15, 0.856);
+
+}
+
+
+.main2-skill .card{
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+
+
+.main3{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.main3-top{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(11, 109, 109);
+    cursor: pointer;
+}
+
+
+.main3-skills{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    gap: 100px;
+}
+.main3-skills .card3{
+    width: 25%;
+    margin: 10px;
+    background: #040101;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.main3-skills .card3 h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.main3-skills .card3 p{
+    font-size: 12px;  
+    
+}
+.main3-skills .card3 button{
+    background: orangered ;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.main3-skill .card3 button:hover{
+    background: rgba(223, 70, 15, 0.856);
+
+}
+
+
+.main3-skill .card3{
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+
+
+
